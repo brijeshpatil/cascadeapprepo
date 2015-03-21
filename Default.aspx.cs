@@ -8,7 +8,7 @@ using System.Data;
 using System.Data.SqlClient;
 public partial class _Default : System.Web.UI.Page
 {
-    SqlConnection con = new SqlConnection(@"Data Source=.\SQLEXPRESS;AttachDbFilename=D:\Brijesh\22Sep\CascadingDropDown\App_Data\Database.mdf;Integrated Security=True;User Instance=True");
+    SqlConnection con = new SqlConnection(@"Server=435c90e2-3c64-41cc-97fa-a46100d125cd.sqlserver.sequelizer.com;Database=db435c90e23c6441cc97faa46100d125cd;User ID=islisgaogmfimwid;Password=MuAhrkSGStSQaSxoriZLSeiQ6GoRSxt6YoLoxnxja2HzFrGDe7dubQxGkTkS5aXu;");
     SqlDataAdapter da;
     DataTable dt;
 
